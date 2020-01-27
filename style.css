@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Todo Box Area */
+#app {
+    height: 98vh;
+    background: #6C7A89;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#app .box{
+    border-radius: 10px;
+    width: 600px;
+    height: 900px;
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Title */
+
+#app h1 {
+    margin: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 5px #3d768a;
+}
+
+/* New Todo Area */
+.novoTodo {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    justify-content: center;
+}
+
+.novoTodo input{
+    /* display: none; */
+    margin: 5px 5px 10px 0;
+    padding-left: 10px;
+    font-size: 15px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 14px -7px #276873;
+
+} 
+
+.novoTodo button{
+    /* display: none; */
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#599bb3;
+	border-radius:8px;
+	color:#ffffff;
+	font-weight:bold;
+	padding:10px 30px;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+/* Header */
+.header {
+    background-color: tomato;
+}
