@@ -23,6 +23,7 @@ body {
 
 #app h1 {
     margin: 0;
+    font-size: 40px;
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -33,7 +34,6 @@ body {
 .novoTodo {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
     justify-content: center;
 }
 
@@ -68,4 +68,35 @@ body {
 /* Header */
 .header {
     background-color: tomato;
+}
+
+/* Todo List */
+
+.todos-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    list-style: none;
+    overflow-x: auto;
+}
+
+.todo-item {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.todo-item input {
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+
+}
+.todo-item img{
+    height: 25px;
+    margin-left: 15px;
 }
